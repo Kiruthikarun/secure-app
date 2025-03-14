@@ -8,7 +8,7 @@ import ResetPassword from "./ResetPassword";
 import "./App.css";
 
 function Login() {
-  const [identifier, setIdentifier] = useState(""); // Username OR Email
+  const [identifier, setIdentifier] = useState(""); 
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");

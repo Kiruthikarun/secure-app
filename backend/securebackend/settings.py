@@ -69,8 +69,6 @@ DATABASES = {
         'PORT': '5432', 
     }
 }
-
-# Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -144,5 +142,4 @@ CSRF_COOKIE_HTTPONLY = True
 CSRF_COOKIE_SECURE = True
 
 AUTH_USER_MODEL = "authsystem.CustomUser"
-
 
